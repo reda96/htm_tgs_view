@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+}
+nav {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  direction: rtl;
+}
+
+.bg {
+  display: block;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.title {
+  font-family: DroidArabicKufiBold;
+  color: #0e5ba3;
+}
+.first {
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/Rectangle-3.png");
+  background-size: cover;
+}
+.second {
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/main-testimonial-bg.png");
+}
+.quality {
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/2020-08-10-15-35-webdesign-finder.com.png");
+}
+.quality2 {
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/2020-08-10-15-35-webdesign-finder.com copy 2.png");
+}
+.quality3 {
+  background: linear-gradient(
+      94.07deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("Images/inspect/TGS/Page 1/Home page -2021/2020-08-10-15-35-webdesign-finder.com copy 2.png")
+      no-repeat center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+  border-radius: 0 0 0 100px;
+}
+.eng {
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/2020-08-10-15-35-webdesign-finder.com copy 3.png");
+}
+.health {
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/2020-08-10-15-35-webdesign-finder.com copy.png");
+}
+.third_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 560px 560px 560px 560px;
+}
+.bottom {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background-color: #0e5ba3;
+  background-image: url("Images/inspect/TGS/Page 1/Home page -2021/Group 9/Group 7/Group 7.png");
+  background-position: left;
+  background-size: 300px 400px;
+}
+.pagination {
+  display: inline-block;
+  margin-bottom: 100px;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 20px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 20px;
+}
